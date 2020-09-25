@@ -1,8 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./styles.css";
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+import Draw from "./Drawer";
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(
+  <React.StrictMode>
+    <Draw />
+  </React.StrictMode>,
+  rootElement
+);
