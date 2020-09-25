@@ -21,7 +21,7 @@
     "eject": "react-scripts eject"
   },
   "engines": {
-  	"node": "12.x"
+  	"node": "12.x",
     "npm": "6.4.1"
   },
   "proxy": "http://localhost:3001",
