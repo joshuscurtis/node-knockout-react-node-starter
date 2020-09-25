@@ -2,16 +2,16 @@
   "name": "node-knockout-react-node-starter",
   "version": "0.0.0",
   "private": true,
-  "dependencies": {
-    "express": "^4.16.4",
-    "express-enforces-ssl": "^1.1.0",
-    "helmet": "^3.14.0",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
-    "react-scripts": "2.0.5"
+ "dependencies": {
+    "@material-ui/core": "4.11.0",
+    "@material-ui/icons": "4.9.1",
+    "@material-ui/styles": "4.10.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-scripts": "3.4.3"
   },
   "devDependencies": {
-    "concurrently": "^4.0.1"
+    "typescript": "3.8.3"
   },
   "scripts": {
     "start": "concurrently \"react-scripts start\" \"node index\"",
